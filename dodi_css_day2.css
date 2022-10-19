@@ -1,0 +1,42 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgb(255, 0, 0);
+    transition: 0.3s;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 255, 17);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  h2{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .cardz {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    transition: 0.3s;
+    width: 100%;
+    height: 5%;
+  }
+
+  .cardz:hover {
+    box-shadow: 0 8px 16px 0 rgb(255, 255, 255);
+  }
+
+  .cards {
+    box-shadow: 0 4px 8px 0 rgb(0, 191, 255);
+    transition: 0.3s;
+    width: 100%;
+    height: 5%;
+  }
+
+  .cards:hover {
+    box-shadow: 0 8px 16px 0 rgb(64, 0, 255);
+  }
