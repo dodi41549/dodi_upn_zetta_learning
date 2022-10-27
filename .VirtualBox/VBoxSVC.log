@@ -1,0 +1,116 @@
+00:00:00.007245 main     VirtualBox COM Server 6.0.24 r139119 win.amd64 (Jul  9 2020 19:37:22) release log
+00:00:00.007247 main     Log opened 2022-09-29T08:27:50.267610800Z
+00:00:00.007248 main     Build Type: release
+00:00:00.007251 main     OS Product: Windows 10
+00:00:00.007253 main     OS Release: 10.0.19043
+00:00:00.007253 main     OS Service Pack: 
+00:00:00.039242 main     DMI Product Name: VivoBook_ASUSLaptop X415EP
+00:00:00.054684 main     DMI Product Version: 1.0       
+00:00:00.054695 main     Host RAM: 7886MB (7.7GB) total, 2426MB (2.3GB) available
+00:00:00.054701 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.054701 main     Process ID: 12868
+00:00:00.054702 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.136583          VirtualBox: object creation starts
+00:00:00.139030          Home directory: 'C:\Users\ASUS\.VirtualBox'
+00:00:00.140226          Installed Drivers:
+00:00:00.143498            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.0.24.39119)
+00:00:00.147925            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.0.24.39119)
+00:00:00.150176            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.0.24.39119)
+00:00:00.151733            C:\Windows\system32\DRIVERS\VBoxDrv.sys (Version: 6.0.24.39119)
+00:00:00.169032          Loading settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.199869          Getting USB descriptor (id 0) failed with error 31
+00:00:00.200320          Getting USB descriptor (id 0) failed with error 31
+00:00:00.200367          Getting USB descriptor (id 0) failed with error 31
+00:00:00.208369          USB: Unknown USB device detected (idVendor: 0x13d3, idProduct: 0x5a11)
+00:00:00.208393          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0aaa)
+00:00:00.324843          HostDnsMonitor: initializing
+00:00:00.330484          HostDnsMonitor: updating information
+00:00:00.330792          HostDnsMonitor: old information
+00:00:00.330793            no server entries
+00:00:00.330794            no domain set
+00:00:00.330794            no search string entries
+00:00:00.330795          HostDnsMonitor: new information
+00:00:00.330795            server 1: 180.250.13.42
+00:00:00.330796            server 2: 180.250.13.46
+00:00:00.330796            no domain set
+00:00:00.330797            no search string entries
+00:00:00.375469          VD: VDInit finished with VINF_SUCCESS
+00:00:00.392638          Loading settings file "C:\Users\ASUS\VirtualBox VMs\SO\SO.vbox" with version "1.15-windows"
+00:00:00.405013          Loading settings file "C:\Users\ASUS\VirtualBox VMs\windows\windows.vbox" with version "1.15-windows"
+00:00:00.405859          VirtualBox: object created
+00:00:10.029549          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:10.053115          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:11:51.490062 dns-monitor HostDnsMonitor: updating information
+00:11:51.490137 dns-monitor HostDnsMonitor: unchanged
+00:27:02.388009 dns-monitor HostDnsMonitor: updating information
+00:27:02.388105 dns-monitor HostDnsMonitor: unchanged
+00:39:29.961978 dns-monitor HostDnsMonitor: updating information
+00:39:29.962024 dns-monitor HostDnsMonitor: unchanged
+00:42:06.204352 dns-monitor HostDnsMonitor: updating information
+00:42:06.204412 dns-monitor HostDnsMonitor: unchanged
+00:42:14.970855 dns-monitor HostDnsMonitor: updating information
+00:42:14.970882 dns-monitor HostDnsMonitor: unchanged
+00:42:45.773738 dns-monitor HostDnsMonitor: updating information
+00:42:45.773775 dns-monitor HostDnsMonitor: unchanged
+00:44:56.536510 dns-monitor HostDnsMonitor: updating information
+00:44:56.536570 dns-monitor HostDnsMonitor: old information
+00:44:56.536574 dns-monitor   server 1: 180.250.13.42
+00:44:56.536578 dns-monitor   server 2: 180.250.13.46
+00:44:56.536581 dns-monitor   no domain set
+00:44:56.536583 dns-monitor   no search string entries
+00:44:56.536635 dns-monitor HostDnsMonitor: new information
+00:44:56.536640 dns-monitor   no server entries
+00:44:56.536643 dns-monitor   no domain set
+00:44:56.536646 dns-monitor   no search string entries
+00:45:27.199246 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:27.199509 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:27.199653 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:30.561747 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:30.561995 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:30.562154 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:31.400400 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:31.400573 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:31.400723 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:45:36.203409 dns-monitor HostDnsMonitor: updating information
+00:45:36.203434 dns-monitor HostDnsMonitor: unchanged
+00:46:49.900123 dns-monitor HostDnsMonitor: updating information
+00:46:49.900167 dns-monitor HostDnsMonitor: unchanged
+00:46:52.286690 dns-monitor HostDnsMonitor: updating information
+00:46:52.286767 dns-monitor HostDnsMonitor: old information
+00:46:52.286777 dns-monitor   no server entries
+00:46:52.286785 dns-monitor   no domain set
+00:46:52.286793 dns-monitor   no search string entries
+00:46:52.286800 dns-monitor HostDnsMonitor: new information
+00:46:52.286808 dns-monitor   server 1: 192.168.188.224
+00:46:52.286816 dns-monitor   no domain set
+00:46:52.286822 dns-monitor   no search string entries
+00:47:20.685244 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:47:20.685376 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:47:20.685485 USBPROXY Getting USB descriptor (id 0) failed with error 31
+00:47:27.754407 dns-monitor HostDnsMonitor: updating information
+00:47:27.754468 dns-monitor HostDnsMonitor: old information
+00:47:27.754476 dns-monitor   server 1: 192.168.188.224
+00:47:27.754484 dns-monitor   no domain set
+00:47:27.754490 dns-monitor   no search string entries
+00:47:27.754497 dns-monitor HostDnsMonitor: new information
+00:47:27.754503 dns-monitor   server 1: 180.250.13.42
+00:47:27.754509 dns-monitor   server 2: 180.250.13.46
+00:47:27.754515 dns-monitor   no domain set
+00:47:27.754521 dns-monitor   no search string entries
+01:02:39.719927 dns-monitor HostDnsMonitor: updating information
+01:02:39.719974 dns-monitor HostDnsMonitor: unchanged
+01:11:22.008219 USBPROXY Getting USB descriptor (id 0) failed with error 31
+01:11:22.008642 USBPROXY Getting USB descriptor (id 0) failed with error 31
+01:11:23.154410 dns-monitor HostDnsMonitor: updating information
+01:11:23.154443 dns-monitor HostDnsMonitor: unchanged
+01:17:50.612026 dns-monitor HostDnsMonitor: updating information
+01:17:50.612069 dns-monitor HostDnsMonitor: unchanged
+01:18:13.840767          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:18:13.845008          Saving settings file "C:\Users\ASUS\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:18:19.394227 main     VirtualBox: object deletion starts
+01:18:19.396098 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ASUS\VirtualBox VMs\SO\SO.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:18:19.405278 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\ASUS\VirtualBox VMs\windows\windows.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:18:19.409355 main     HostDnsMonitor: shutting down ...
+01:18:19.409413 main     HostDnsMonitor: shut down
+01:18:19.413971 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:18:19.415158 main     VirtualBox: object deleted
