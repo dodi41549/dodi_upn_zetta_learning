@@ -56,6 +56,39 @@
 
  </form>
 
- 
+ <div class="card card-block">
+  <h4 class="card-title">LowerCasePipe</h4>
+  <div class="card-text">
+    <p ngNonBindable>{{ 'ASIM' | lowercase }}</p>
+    <p>{{ 'ASIM' | lowercase }}</p>
+  </div>
+</div>
+
+<div class="card card-block">
+  <h4 class="card-title">UpperCasePipe</h4>
+  <div class="card-text">
+    <p ngNonBindable>{{ 'asim' | uppercase }}</p>
+    <p>{{ 'asim' | uppercase }}</p>
+  </div>
+</div>
+
+<li ng-repeat="curso in ctrl.arrayCursos | filter: (search | removeAcentos)" >
+        {{ curso }}
+</li>
+
+<div class="col-2">
+  <mat-form-field>
+          <mat-select
+                  placeholder="Source"
+                  [(ngModel)]="applicable.SourceNm">
+                  <mat-option
+                          *ngFor="let source of applicableLevel.SourceListTxt.split(',')"
+                          [value]="source | trim">
+                          {{source | trim }}
+                  </mat-option>
+          </mat-select>
+  </mat-form-field>
+</div>
+
 
  <app-test></app-test>
