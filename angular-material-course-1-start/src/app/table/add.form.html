@@ -1,0 +1,46 @@
+<!-- dialog-box.component.html -->
+<h1 mat-dialog-title>Row Action :: <strong>{{action}}</strong></h1>
+<div mat-dialog-content>
+  <mat-form-field *ngIf="action != 'Delete'; else elseTemplate">
+    <input placeholder="{{action}} Name" matInput [(ngModel)]="local_data.name">
+  </mat-form-field>
+  <ng-template #elseTemplate>
+    Sure to delete <b>{{local_data.name}}</b>?
+  </ng-template>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="doAction()">{{action}}</button>
+  <button mat-button (click)="closeDialog()" mat-flat-button color="warn">Cancel</button>
+</div>
+
+<ng-container *ngFor="let column of columnDefs" [matColumnDef]="column.name">
+  
+    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+      {{ column.displayName }}
+    </th>
+
+    <td mat-cell *matCellDef="let row">
+
+      <!-- See: .scss for mat-column styles -->
+
+      <ng-container *ngIf="!column.routerLink; else link">
+        {{ getProperty(row, column.name) }}
+      </ng-container>
+
+      <ng-template #link>
+        <a *ngIf="column.name === 'party.displayName'"
+           [routerLink]="[getProperty(row, column.routerLink)]">
+          {{ getProperty(row, column.name) }}
+        </a>
+        <a *ngIf="column.name === 'organisation.displayName'"
+           [routerLink]="['/sales/accounts', getProperty(row, column.routerLink)]">
+          {{ getProperty(row, column.name) }}
+        </a>
+      </ng-template>
+
+    </td>
+
+  </ng-container>
+
+  <link rel="stylesheet" href="table.list.css">
+  <link rel="stylesheet" href="table.list.js">
